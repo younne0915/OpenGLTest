@@ -37,6 +37,7 @@ template <typename T> struct vec<3, T> {
 	const T& operator[](const size_t i) const { assert(i < 3); return i <= 0 ? x : (1 == i ? y : z); }
 	float norm() { return std::sqrt(x*x + y * y + z * z); }
 	vec<3, T> & normalize(T l = 1) { *this = (*this)*(l / norm()); return *this; }
+	inline vec<3, T> operator ^(const vec<3, T> &v) const { return vec<3, T>(y*v.z - z * v.y, z*v.x - x * v.z, x*v.y - y * v.x); }
 
 	T x, y, z;
 };

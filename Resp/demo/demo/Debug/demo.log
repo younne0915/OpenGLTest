@@ -1,23 +1,69 @@
 ﻿  main.cpp
 d:\workspace\younne\shader\opengltest\resp\demo\demo\tgaimage.h(58): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
-d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(30): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(56): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(28): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(53): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
           with
           [
               T=float
           ]
-d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(72): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(69): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
           with
           [
               T=float
           ]
-d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(79): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(76): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
           with
           [
               T=float
+          ]
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(92): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(93): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(96): warning C4244: “初始化”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(97): warning C4244: “初始化”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(178): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(185): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+d:\workspace\younne\shader\opengltest\resp\demo\demo\geometry.h(65): warning C4244: “*=”: 从“const U”转换到“T”，可能丢失数据
+          with
+          [
+              U=float
+          ]
+          and
+          [
+              T=int
+          ]
+  d:\workspace\younne\shader\opengltest\resp\demo\demo\main.cpp(153): note: 参见对正在编译的函数 模板 实例化“vec<2,int> operator *<2,int,float>(vec<2,int>,const U &)”的引用
+          with
+          [
+              U=float
           ]
   model.cpp
-  tgaimage.cpp
-d:\workspace\younne\shader\opengltest\resp\demo\demo\tgaimage.h(58): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
   正在生成代码...
   demo.vcxproj -> D:\WorkSpace\younne\Shader\OpenGLTest\Resp\demo\Debug\demo.exe
